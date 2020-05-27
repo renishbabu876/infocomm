@@ -1,0 +1,17 @@
+.game_development {
+    height: 60px;
+    margin-left: 11rem;
+
+    @media only screen and (max-width:300px) {
+        margin-left: 25rem;
+    }
+
+  
+}
+
+.mouseonanimate {
+    &:hover {
+       animation: zoominoutsinglefeatured 1s  ;
+
+    }
+ }

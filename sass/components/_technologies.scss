@@ -1,0 +1,107 @@
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+ 
+  body .carousel-indicators li{
+    background-color:transparent;
+  }
+  body .carousel-indicators .active  {
+    background-color: transparent;
+  }
+  body .carousel-indicators{
+    bottom: 0;
+    color: transparent;
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:transparent;
+  }
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+     }
+
+     .carousel-image {
+         height: 80px;
+         width: 80px;
+     }
+   
+    .heading-technologies {
+    
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 17px 29px 30px;
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+
+    @media only screen and (max-width:1200px) {
+      margin-left: 8rem;
+    }
+
+    @media only screen and (max-width:900px) {
+      margin-left: 18rem;
+    }
+    @media only screen and (max-width:600px) {
+      margin-left: 1rem;
+      margin-right: -15rem;
+    }
+
+    @media only screen and (max-width:400px) {
+      margin-left: 1rem;
+      margin-right: -21rem;
+    }
+
+    @media only screen and (max-width:300px) {
+      margin-left: 0rem;
+      margin-right: -54rem;
+    }
+
+    }
+
+   
+
+    .profile-image {
+      
+      position: relative;
+      top: 50%;
+      left: 44%;
+
+      @media only screen and (max-width:1200px){
+        position: relative;
+        top: 50%;
+        left: 48%;
+      }
+
+      @media only screen and (max-width:900px){
+        position: relative;
+        top: 50%;
+        left: 60%;
+      }
+
+      @media only screen and (max-width:600px){
+        position: relative;
+        top: 50%;
+        left: 65%;
+      }
+
+      @media only screen and (max-width:400px){
+        position: relative;
+        top: 50%;
+        left: 86%;
+      }
+
+      @media only screen and (max-width:300px){
+        position: relative;
+        top: 50%;
+        left: 193%;
+      }
+    }
+
+    .profile-name {
+      
+      text-align: center;
+    }

@@ -1,0 +1,28 @@
+.company_image {
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background-image: url(../img/bg.jpg);
+
+    @media only screen and (max-width:1200px) {
+       width: 111%;
+    }
+
+    @media only screen and (max-width:900px) {
+        width: 128%;
+     }
+
+     @media only screen and (max-width:600px) {
+        width: 158%;
+     }
+
+     @media only screen and (max-width:400px) {
+        width: 194%;
+     }
+
+     @media only screen and (max-width:300px) {
+        width: 395%;
+     }
+}
