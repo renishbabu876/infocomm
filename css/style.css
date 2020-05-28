@@ -630,19 +630,19 @@ body {
   background-image: url(../img/bg.jpg); }
   @media only screen and (max-width: 1200px) {
     .company_image {
-      width: 111%; } }
+      width: 117%; } }
   @media only screen and (max-width: 900px) {
     .company_image {
-      width: 128%; } }
+      width: 139%; } }
   @media only screen and (max-width: 600px) {
     .company_image {
-      width: 158%; } }
+      width: 199%; } }
   @media only screen and (max-width: 400px) {
     .company_image {
-      width: 194%; } }
+      width: 265%; } }
   @media only screen and (max-width: 300px) {
     .company_image {
-      width: 395%; } }
+      width: 399%; } }
 
 .bg-custom-1 {
   background-color: #85144b; }
@@ -660,6 +660,9 @@ body {
       margin-left: 12rem; } }
   @media only screen and (max-width: 900px) {
     .navbar-item {
+      margin-left: 2rem; } }
+  @media only screen and (max-width: 600px) {
+    .navbar-item {
       margin-left: -1rem; } }
   @media only screen and (max-width: 300px) {
     .navbar-item {
@@ -673,19 +676,19 @@ body {
   z-index: 1; }
   @media only screen and (max-width: 1200px) {
     .navbar-expand {
-      width: 111%; } }
+      width: 117%; } }
   @media only screen and (max-width: 900px) {
     .navbar-expand {
-      width: 128%; } }
+      width: 139%; } }
   @media only screen and (max-width: 600px) {
     .navbar-expand {
-      width: 158%; } }
+      width: 199%; } }
   @media only screen and (max-width: 400px) {
     .navbar-expand {
-      width: 194%; } }
+      width: 265%; } }
   @media only screen and (max-width: 300px) {
     .navbar-expand {
-      width: 395%; } }
+      width: 399%; } }
 
 .btn {
   background-color: #02a2f8;

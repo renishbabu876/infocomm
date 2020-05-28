@@ -18,6 +18,10 @@
       }
 
       @media only screen and (max-width:900px){
+        margin-left: 2rem;
+      }
+
+      @media only screen and (max-width:600px){
         margin-left: -1rem;
       }
 
@@ -32,23 +36,23 @@
     left: 0;
     z-index: 1;
     @media only screen and (max-width:1200px) {
-        width: 111%;
+        width: 117%;
     }
 
     @media only screen and (max-width:900px) {
-        width: 128%;
+        width: 139%;
     }
 
     @media only screen and (max-width:600px) {
-        width: 158%;
+        width: 199%;
     }
 
     @media only screen and (max-width:400px) {
-        width: 194%;
+        width: 265%;
     }
 
     @media only screen and (max-width:300px) {
-        width: 395%;
+        width: 399%;
     }
 }
 .btn {
