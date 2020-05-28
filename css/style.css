@@ -663,7 +663,7 @@ body {
       margin-left: 2rem; } }
   @media only screen and (max-width: 600px) {
     .navbar-item {
-      margin-left: -1rem; } }
+      margin-left: 1rem; } }
   @media only screen and (max-width: 300px) {
     .navbar-item {
       margin-left: 8rem; } }
@@ -699,12 +699,9 @@ body {
   .btn:hover {
     background-color: #4f6df5; }
 
-.infocomm_logo {
-  position: absolute; }
-  .infocomm_logo_company_logo {
-    position: relative;
-    right: -4rem;
-    bottom: -1.5rem; }
+@media only screen and (max-width: 600px) {
+  .infocomm-logo {
+    width: 130px; } }
 
 .company_description {
   width: 100%;
