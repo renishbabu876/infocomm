@@ -15,30 +15,19 @@
 
       @media only screen and (max-width:1200px){
         margin-left: 12rem;
-        body {
-            overflow-x: hidden !important;
-        }
+        
       }
 
       @media only screen and (max-width:900px){
         margin-left: 2rem;
-        body {
-            overflow-x: hidden !important;
-        }
       }
 
       @media only screen and (max-width:600px){
         margin-left: 1rem;
-        body {
-            overflow-x: hidden !important;
-        }
       }
 
       @media only screen and (max-width:300px){
         margin-left: 8rem;
-        body {
-            overflow-x: hidden !important;
-        }
       }
   }
 .navbar-expand {
@@ -49,37 +38,22 @@
     z-index: 1;
     @media only screen and (max-width:1200px) {
         width: 117%;
-        body {
-            overflow-x: hidden !important;
-        }
     }
 
     @media only screen and (max-width:900px) {
         width: 139%;
-        body {
-            overflow-x: hidden !important;
-        }
     }
 
     @media only screen and (max-width:600px) {
         width: 199%;
-        body {
-            overflow-x: hidden !important;
-        }
     }
 
     @media only screen and (max-width:400px) {
         width: 265%;
-        body {
-            overflow-x: hidden !important;
-        }
     }
 
     @media only screen and (max-width:300px) {
         width: 399%;
-        body {
-            overflow-x: hidden !important;
-        }
     }
 }
 .btn {
@@ -108,9 +82,6 @@
 
     @media only screen and (max-width:600px) {
           width: 130px;
-          body {
-            overflow-x: hidden !important;
-        }
     }
 
 }

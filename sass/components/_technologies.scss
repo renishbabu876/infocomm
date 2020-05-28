@@ -40,40 +40,24 @@
 
     @media only screen and (max-width:1200px) {
       margin-left: 8rem;
-
-      body {
-        overflow-x: hidden !important;
-    }
     }
 
     @media only screen and (max-width:900px) {
       margin-left: 18rem;
-      body {
-        overflow-x: hidden !important;
-    }
     }
     @media only screen and (max-width:600px) {
       margin-left: 1rem;
       margin-right: -15rem;
-      body {
-        overflow-x: hidden !important;
-    }
     }
 
     @media only screen and (max-width:400px) {
       margin-left: 1rem;
       margin-right: -21rem;
-      body {
-        overflow-x: hidden !important;
-    }
     }
 
     @media only screen and (max-width:300px) {
       margin-left: 0rem;
       margin-right: -54rem;
-      body {
-        overflow-x: hidden !important;
-    }
     }
 
     }
@@ -90,45 +74,30 @@
         position: relative;
         top: 50%;
         left: 48%;
-        body {
-          overflow-x: hidden !important;
-      }
       }
 
       @media only screen and (max-width:900px){
         position: relative;
         top: 50%;
         left: 60%;
-        body {
-          overflow-x: hidden !important;
-      }
       }
 
       @media only screen and (max-width:600px){
         position: relative;
         top: 50%;
         left: 65%;
-        body {
-          overflow-x: hidden !important;
-      }
       }
 
       @media only screen and (max-width:400px){
         position: relative;
         top: 50%;
         left: 86%;
-        body {
-          overflow-x: hidden !important;
-      }
       }
 
       @media only screen and (max-width:300px){
         position: relative;
         top: 50%;
         left: 193%;
-        body {
-          overflow-x: hidden !important;
-      }
       }
     }
 
