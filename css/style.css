@@ -720,17 +720,17 @@ body {
       width: 116%; } }
   @media only screen and (max-width: 900px) {
     .company_services {
-      width: 134%;
+      width: 141%;
       height: 43%; } }
   @media only screen and (max-width: 600px) {
     .company_services {
-      width: 193%; } }
+      width: 198%; } }
   @media only screen and (max-width: 400px) {
     .company_services {
-      width: 212%; } }
+      width: 264%; } }
   @media only screen and (max-width: 300px) {
     .company_services {
-      width: 398%; } }
+      width: 430%; } }
 
 .company_project {
   background-image: linear-gradient(to right, #2AF598, #009EFD) !important;
