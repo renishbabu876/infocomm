@@ -79,6 +79,10 @@
 
         @media only screen and (max-width:900px) {
             margin-left: -4rem;
+
+            body {
+                overflow-x: hidden !important;
+            }
         }
         }
 
@@ -90,35 +94,55 @@
 
         @media only screen and (max-width:900px){
             margin-left: -6rem;
+
+            body {
+                overflow-x: hidden !important;
+            }
         }
     }
 
     @media only screen and (max-width:1200px) {
         width: 115%;
         height: auto;
+
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:900px) {
         width: 134%;
         height: auto;
+        body {
+            overflow-x: hidden !important;
+        }
 
     }
 
     @media only screen and (max-width:600px) {
         width: 159%;
         height: auto;
+        body {
+            overflow-x: hidden !important;
+        }
 
     }
 
     @media only screen and (max-width:400px) {
         width: 209%;
         height: auto;
+        body {
+            overflow-x: hidden !important;
+        }
 
     }
 
     @media only screen and (max-width:300px) {
         width: 398%;
         height: auto;
+        body {
+            overflow-x: hidden !important;
+        }
 
     }
 }
@@ -134,18 +158,31 @@
 
     @media only screen and (max-width:1200px) {
         margin-left: 13rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:900px) {
         margin-left: 13rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:600px) {
         margin-left: 11rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:300px) {
-        margin-left: 16rem;    }
+        margin-left: 16rem; 
+        body {
+            overflow-x: hidden !important;
+        }  
+     }
 
 
 
@@ -162,14 +199,23 @@
 
     @media only screen and (max-width:900px) {
         margin-left: 8rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:600px) {
         margin-left: 5rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
     @media only screen and (max-width:300px) {
         margin-left: 10rem;
+        body {
+            overflow-x: hidden !important;
+        }
     }
 
 }

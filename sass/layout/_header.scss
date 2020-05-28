@@ -8,21 +8,36 @@
 
     @media only screen and (max-width:1200px) {
        width: 117%;
+       body {
+         overflow-x: hidden !important;
+     }
     }
 
     @media only screen and (max-width:900px) {
         width: 139%;
+        body {
+         overflow-x: hidden !important;
+     }
      }
 
      @media only screen and (max-width:600px) {
         width: 199%;
+        body {
+         overflow-x: hidden !important;
+     }
      }
 
      @media only screen and (max-width:400px) {
         width: 265%;
+        body {
+         overflow-x: hidden !important;
+     }
      }
 
      @media only screen and (max-width:300px) {
         width: 399%;
+        body {
+         overflow-x: hidden !important;
+     }
      }
 }
