@@ -1,66 +1,65 @@
-.navigation {
-   background-color:$color-black;
-   width: 100%;
-   height: 6rem;
-   position: fixed;
-   top: 0;
-   left: 0;
-   z-index: 1;
 
-   @media only screen and (max-width:1268px) {
-
-   }
-
-   &__list {
-       list-style: none;
-       @media only screen and (max-width:1200px) {
-        margin-left: -20rem;
-       }
-
-       @media only screen and (max-width:900px) {
-        margin-left: -33rem;
-       }
-
-
-   }
-
-   &__item {
-       display: inline;
-   }
-
-   &__link:link,
-   &__link:visited {
-       font-size: -0.4rem;
-       color: $color-white;
-       text-decoration: none;
-       padding: 1rem;
-       text-align: left;
-       position: relative;
-       left: 35rem;
-       top: 2rem;
-       font-family: 'Poppins', sans-serif;
-
-       
-   }
-   
-
+.bg-custom-1 {
+    background-color: #85144b;
+  }
   
-}
+  .bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  }
 
+  .bg-dark2 {
+      background-color: $color-black;
+  }
+  .navbar-item {
+      margin-left: 34rem;
+
+      @media only screen and (max-width:1200px){
+        margin-left: 12rem;
+      }
+
+      @media only screen and (max-width:900px){
+        margin-left: -1rem;
+      }
+
+      @media only screen and (max-width:300px){
+        margin-left: 8rem;
+      }
+  }
+.navbar-expand {
+    height: 85px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    @media only screen and (max-width:1200px) {
+        width: 111%;
+    }
+
+    @media only screen and (max-width:900px) {
+        width: 128%;
+    }
+
+    @media only screen and (max-width:600px) {
+        width: 158%;
+    }
+
+    @media only screen and (max-width:400px) {
+        width: 194%;
+    }
+
+    @media only screen and (max-width:300px) {
+        width: 395%;
+    }
+}
 .btn {
     background-color: $color-blue;
     border-radius: 5px;
     color: $color-white;
     font-weight: 400;
     padding: 1rem 2rem;
-    margin: -10px;
+    
 
-    @media only screen and (max-width:600px) {
-        width: 7rem;
-    padding: 7px 1rem;
-    margin-left: -1rem;
-    text-align: center;
-    }
+  
 
     &:hover {
         background-color: #4f6df5;
