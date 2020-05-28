@@ -481,19 +481,19 @@ body {
       height: auto; } }
   @media only screen and (max-width: 900px) {
     .footer {
-      width: 134%;
+      width: 140%;
       height: auto; } }
   @media only screen and (max-width: 600px) {
     .footer {
-      width: 159%;
+      width: 193%;
       height: auto; } }
   @media only screen and (max-width: 400px) {
     .footer {
-      width: 209%;
+      width: 252%;
       height: auto; } }
   @media only screen and (max-width: 300px) {
     .footer {
-      width: 398%;
+      width: 414%;
       height: auto; } }
 
 .indian-flag {
@@ -721,10 +721,10 @@ body {
   @media only screen and (max-width: 900px) {
     .company_services {
       width: 134%;
-      height: 132%; } }
+      height: 43%; } }
   @media only screen and (max-width: 600px) {
     .company_services {
-      width: 159%; } }
+      width: 193%; } }
   @media only screen and (max-width: 400px) {
     .company_services {
       width: 212%; } }
@@ -743,13 +743,13 @@ body {
       height: 328px; } }
   @media only screen and (max-width: 900px) {
     .company_project {
-      width: 134%; } }
+      width: 140%; } }
   @media only screen and (max-width: 600px) {
     .company_project {
-      width: 160%; } }
+      width: 193%; } }
   @media only screen and (max-width: 400px) {
     .company_project {
-      width: 212%; } }
+      width: 256%; } }
   @media only screen and (max-width: 300px) {
     .company_project {
       width: 399%; } }
