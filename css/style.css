@@ -653,6 +653,9 @@ body {
 .bg-dark2 {
   background-color: #000000; }
 
+.nav-link1 {
+  color: white; }
+
 .navbar-item {
   margin-left: 34rem; }
   @media only screen and (max-width: 1200px) {
