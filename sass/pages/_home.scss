@@ -13,10 +13,12 @@
 
     @media only screen and (max-width:1260px) {
        width: 103%;
+       height: auto;
     }
 
     @media only screen and (max-width:1200px) {
         width: 116%;
+        height: auto;
      }
 
      @media only screen and (max-width:900px) {
@@ -26,14 +28,17 @@
 
      @media only screen and (max-width:600px) {
         width: 198%;
+        height: auto;
      }
 
      @media only screen and (max-width:400px) {
-        width: 264%
+        width: 264%;
+        height: auto;
      }
 
      @media only screen and (max-width:300px) {
-        width: 430%
+        width: 430%;
+        height: auto;
      }
 
 }
