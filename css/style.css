@@ -481,15 +481,15 @@ body {
       height: auto; } }
   @media only screen and (max-width: 900px) {
     .footer {
-      width: 140%;
+      width: 208%;
       height: auto; } }
   @media only screen and (max-width: 600px) {
     .footer {
-      width: 203%;
+      width: 207%;
       height: auto; } }
   @media only screen and (max-width: 400px) {
     .footer {
-      width: 269%;
+      width: 274%;
       height: auto; } }
   @media only screen and (max-width: 300px) {
     .footer {
@@ -512,7 +512,7 @@ body {
       margin-left: 13rem; } }
   @media only screen and (max-width: 600px) {
     .indian-flag {
-      margin-left: 11rem; } }
+      margin-left: 13rem; } }
   @media only screen and (max-width: 300px) {
     .indian-flag {
       margin-left: 16rem; } }
@@ -530,7 +530,7 @@ body {
       margin-left: 8rem; } }
   @media only screen and (max-width: 600px) {
     .uk-flag {
-      margin-left: 5rem; } }
+      margin-left: 8rem; } }
   @media only screen and (max-width: 300px) {
     .uk-flag {
       margin-left: 10rem; } }
