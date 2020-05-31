@@ -11,8 +11,18 @@
       background-color: $color-black;
 
       @media only screen and (max-width:1200px) {
-          width:1040px
+          width:1052px
       }
+
+      @media only screen and (max-width:900px) {
+        width:1249px
+    }
+
+    @media only screen and (max-width:600px) {
+        width:1191px
+    }
+    
+
   }
   .nav-link1 {
       color: white;
