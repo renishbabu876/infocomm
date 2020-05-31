@@ -1,4 +1,4 @@
-.bg-light {
+.bg-dark {
     @media only screen and (max-width:900px) {
         width: 208%;
     }
@@ -14,8 +14,11 @@
     @media only screen and (max-width:300px) {
         width: 399%;
     }
+    color: $color-black;
+    
+
 }
-  .nav-link1 {
+  .nav-link {
       color: white;
   }
   .navbar-item {

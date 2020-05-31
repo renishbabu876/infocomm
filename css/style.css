@@ -644,23 +644,22 @@ body {
     .company_image {
       width: 399%; } }
 
-@media only screen and (max-width: 900px) {
-  .bg-light {
-    width: 208%; } }
+.bg-dark {
+  color: #000000; }
+  @media only screen and (max-width: 900px) {
+    .bg-dark {
+      width: 208%; } }
+  @media only screen and (max-width: 600px) {
+    .bg-dark {
+      width: 199%; } }
+  @media only screen and (max-width: 400px) {
+    .bg-dark {
+      width: 265%; } }
+  @media only screen and (max-width: 300px) {
+    .bg-dark {
+      width: 399%; } }
 
-@media only screen and (max-width: 600px) {
-  .bg-light {
-    width: 199%; } }
-
-@media only screen and (max-width: 400px) {
-  .bg-light {
-    width: 265%; } }
-
-@media only screen and (max-width: 300px) {
-  .bg-light {
-    width: 399%; } }
-
-.nav-link1 {
+.nav-link {
   color: white; }
 
 .navbar-item {
