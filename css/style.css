@@ -633,7 +633,7 @@ body {
       width: 117%; } }
   @media only screen and (max-width: 900px) {
     .company_image {
-      width: 139%; } }
+      width: 208%; } }
   @media only screen and (max-width: 600px) {
     .company_image {
       width: 199%; } }
@@ -644,23 +644,21 @@ body {
     .company_image {
       width: 399%; } }
 
-.bg-custom-1 {
-  background-color: #85144b; }
+@media only screen and (max-width: 900px) {
+  .bg-light {
+    width: 208%; } }
 
-.bg-custom-2 {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); }
+@media only screen and (max-width: 600px) {
+  .bg-light {
+    width: 199%; } }
 
-.bg-dark2 {
-  background-color: #000000; }
-  @media only screen and (max-width: 1200px) {
-    .bg-dark2 {
-      width: 1052px; } }
-  @media only screen and (max-width: 900px) {
-    .bg-dark2 {
-      width: 1249px; } }
-  @media only screen and (max-width: 600px) {
-    .bg-dark2 {
-      width: 1191px; } }
+@media only screen and (max-width: 400px) {
+  .bg-light {
+    width: 265%; } }
+
+@media only screen and (max-width: 300px) {
+  .bg-light {
+    width: 399%; } }
 
 .nav-link1 {
   color: white; }
