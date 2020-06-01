@@ -513,7 +513,7 @@ body {
   @media only screen and (max-width: 600px) {
     .indian-flag {
       margin-left: 13rem; } }
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 400px) and (min-width: 300px) {
     .indian-flag {
       margin-left: 16rem; } }
 

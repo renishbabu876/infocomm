@@ -144,9 +144,9 @@
         margin-left: 13rem;
     }
 
-    @media only screen and (max-width:300px) {
-        margin-left: 16rem;    }
-
+    @media only screen and (max-width:400px) and (min-width:300px){
+        margin-left: 16rem;
+    }
 
 
 }
