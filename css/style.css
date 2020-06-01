@@ -345,7 +345,8 @@ body {
     margin-bottom: 0rem; }
     @media only screen and (max-width: 56.25em) {
       .row:not(:last-child) {
-        margin-bottom: 6rem; } }
+        margin-bottom: 6rem;
+        margin: auto; } }
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
