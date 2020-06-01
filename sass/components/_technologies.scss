@@ -38,27 +38,7 @@
     text-align: center;
     margin-top: 3rem;
 
-    @media only screen and (max-width:1200px) {
-      margin-left: 8rem;
-    }
-
-    @media only screen and (max-width:900px) {
-      margin-left: 18rem;
-    }
-    @media only screen and (max-width:600px) {
-      margin-left: 10rem;
-      margin-right: -15rem;
-    }
-
-    @media only screen and (max-width:400px) {
-      margin-left: 7rem;
-      margin-right: -21rem;
-    }
-
-    @media only screen and (max-width:300px) {
-      margin-left: 0rem;
-      margin-right: -54rem;
-    }
+    
 
     }
 
@@ -70,35 +50,7 @@
       top: 50%;
       left: 44%;
 
-      @media only screen and (max-width:1200px){
-        position: relative;
-        top: 50%;
-        left: 48%;
-      }
-
-      @media only screen and (max-width:900px){
-        position: relative;
-        top: 50%;
-        left: 60%;
-      }
-
-      @media only screen and (max-width:600px){
-        position: relative;
-        top: 50%;
-        left: 79%;
-      }
-
-      @media only screen and (max-width:400px){
-        position: relative;
-        top: 50%;
-        left: 99%;
-      }
-
-      @media only screen and (max-width:300px){
-        position: relative;
-        top: 50%;
-        left: 193%;
-      }
+      
     }
 
     .profile-name {

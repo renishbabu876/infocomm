@@ -23,25 +23,7 @@
     font-weight: 600;
     letter-spacing: 5px;
 
-   @media only screen and (max-width:1200px) {
-       font-size: 37px;
-   }
-
-   @media only screen and (max-width:900px) {
-       font-size: 28px;
-   }
-
-   @media only screen and (max-width:600px) {
-       font-size: 22px;
-   }
-
-   @media only screen and (max-width:400px) {
-       font-size: 20px;
-    }
-
-   @media only screen and (max-width:300px) {
-        font-size: 25px;
-   }
+   
 }
 .heading-description {
 
@@ -58,26 +40,7 @@
     font-size: 30px;
     margin-top: 3rem;
 
-    @media only screen and (max-width:1200px) {
-     margin-left: 5rem;
-    }
-    @media only screen and (max-width:900px) {
-        margin-left: 15rem;
-
-    }
     
-    @media only screen and (max-width:648px) {
-        margin-left: 8rem;
-        margin-right: -15rem;    
-    }
-    @media only screen and (max-width:400px) {
-        margin-left: 8rem;
-        margin-right: -20rem;    
-    }
-    @media only screen and (max-width:300px) {
-        margin-left: 7rem;
-    margin-right: -46rem;
-    }
 }
 .paragraph {
     text-align: justify;
@@ -87,32 +50,7 @@
     margin-left: 12rem;
     margin-right: 11rem;
 
-    @media only screen and (max-width:1200px) {
-        margin-left: 18rem;
-        text-align: center;    
-    }
-
-    @media only screen and (max-width:900px) {
-        margin-left: 18rem;
-        text-align: center;
-        margin-right: 1rem;    
-    }
-
-    @media only screen and (max-width:600px) {
-    margin-left: 7rem;
-    text-align: center;
-    margin-right: -16rem;
-    }
-
-    @media only screen and (max-width:400px) {
-        margin-left: 7rem;
-        margin-right: -22rem;    
-    }
-
-    @media only screen and (max-width:300px) {
-        margin-left: 8rem;
-        margin-right: -44rem;    
-    }
+   
 }
 .heading-glance {
     font-family: 'Poppins', sans-serif;
@@ -125,39 +63,7 @@
     color: $color-light-grey;
     margin-left: 7rem;
 
-    @media only screen and (max-width:1200px) {
-        margin-left: 6rem;
-        margin-right: -8rem;
-    }
-
-    @media only screen and (max-width:900px) {
-        margin-left: 3rem;
-        margin-right: -8rem;
-        position: relative;
-        left: 3rem;
-    }
-
-    @media only screen and (max-width:600px) {
-        margin-left: 7rem;
-       margin-right: -9rem;
-       overflow-x: hidden;
-       position: relative;
-       left: 3rem;
-    }
-
-    @media only screen and (max-width:400px) {
-        margin-left: 4rem;
-        margin-right: -8rem;
-        position: relative;
-        left: 6rem;
-    }
-
-    @media only screen and (max-width:300px) {
-        margin-left: 4rem;
-        margin-right: -8rem;
-        position: relative;
-        left: 20rem;
-    }
+    
 }
 .heading-1 {
     background-color: $color-pink;
@@ -171,39 +77,7 @@
     cursor: pointer;
     margin-left: 7rem;
 
-    @media only screen and (max-width:1200px) {
-        margin-left: 2rem;
-
-
-    }
-
-    @media only screen and (max-width:900px) {
-        width: 11rem;
-
-    }
-
-    @media only screen and (max-width:600px) {
-        width: 10rem;
-    position: relative;
-    left: 0rem;
-
-    }
-
-    @media only screen and (max-width:400px) {
-        width: 10rem;
-        position: relative;
-        left: 1rem;
-
-    }
-
-    @media only screen and (max-width:300px) {
-        width: 10rem;
-        position: relative;
-        left: -1rem;
-        margin-left: 11rem;
-
-    }
-
+    
 
 }
 .heading-2 {
@@ -223,24 +97,7 @@
     cursor: pointer;
     }
 
-     @media only screen and (max-width:900px) {
-        width: 11rem;
-
-     }
-
-     @media only screen and (max-width:600px) {
-        margin-left: 8rem;
-        width: 11rem;
-     }
-
-     @media only screen and (max-width:400px) {
-        margin-left: 8rem;
-        width: 11rem;
-     }
-     @media only screen and (max-width:300px) {
-        margin-left: 17rem;
-        width: 11rem;
-     }
+    
 }
 .heading-3 {
     padding: 20px 0px;
@@ -258,33 +115,6 @@
     border: 0px;
     cursor: pointer;
     }
-
-    @media only screen and(max-width:1200px) {
-        width: 15rem;
-        margin-left: 4rem;
-    }
-
-    @media only screen and (max-width:900px) {
-        width: 10rem;
-
-     }
-
-     @media only screen and (max-width:600px) {
-        margin-left: 13rem;
-        width: 9rem;
-     }
-
-     @media only screen and (max-width:400px) {
-        margin-left: 14rem;
-        width: 9rem;
-     }
-
-     @media only screen and (max-width:300px) {
-        margin-left: 37rem;
-        width: 9rem;
-        margin-top: -5rem;
-     }
-
 
 }
 .heading-4 {
@@ -305,38 +135,7 @@
     cursor: pointer;
     }
 
-    @media only screen and (max-width:1200px){
-        margin-left: 4rem;
-        width: 13rem;
-    }
-
-    @media only screen and (max-width:600px){
-        margin-left: 13rem;
-    width: 10rem;
-    margin-right: 2rem;
-    padding-right: 0rem;
-    position: relative;
-    left: 4rem;
-    }
-
-    @media only screen and (max-width:400px){
-        margin-left: 14rem;
-        width: 10rem;
-        margin-right: 2rem;
-        padding-right: 0rem;
-        position: relative;
-        left: 4rem;
-    }
-
-    @media only screen and (max-width:300px){
-        margin-left: 39rem;
-        width: 10rem;
-        margin-right: 2rem;
-        padding-right: 0rem;
-        position: relative;
-        left: 4rem;
-        margin-top: -5rem;
-    }
+    
 }
 
 .paragraph-1 {
@@ -347,27 +146,7 @@
     color: $color-light-black;
     font-size: 14px;
 
-    @media only screen and (max-width:1200px){
-        margin-left: 12rem;
-        margin-right: 0rem;
-    }
-
-    
-
-    @media only screen and (max-width:600px){
-        margin-left: 10rem;
-        margin-right: -15rem;
-    }
-
-    @media only screen and (max-width:400px){
-        margin-left: 10rem;
-        margin-right: -20rem;
-    }
-
-    @media only screen and (max-width:300px){
-        margin-left: 9rem;
-        margin-right: -30rem;
-    }
+   
 }
 .heading-service {
     font-weight: bold;
@@ -390,17 +169,7 @@
     line-height: 25px;
     margin: 0rem 7rem;
 
-    @media only screen and (max-width:900px){
-        margin-left: 10rem;
-        margin-right: 10rem;
-        font-size: 19px;
-    }
-
-    @media only screen and (max-width:600px){
-        margin-left: 2rem;
-        margin-right: 2rem;
-        
-    }
+    
 
 }
 
@@ -417,26 +186,10 @@
     span {
        margin-left: 30rem;
 
-       @media only screen and (max-width:900px) {
-        margin-left: 17rem;
-        margin-right: 16rem;
+      
     }
 
-    @media only screen and (max-width:600px) {
-        margin-left: 8rem;
-        margin-right: 9rem;
-    }
-    }
-
-    @media only screen and (max-width:1200px) {
-        margin-left: 1rem;
-        margin-right: 3rem;
-    }
-
-    @media only screen and (max-width:900px) {
-        text-align: center;
-    }
-
+   
 }
 
 .infocomm-india-address {
@@ -445,13 +198,7 @@
   font-family: 'Poppins', sans-serif;
   line-height: 25px;
 
-  @media only screen and (max-width:900px) {
-    margin-left: 6rem;
-  }
-
-  @media only screen and (max-width:600px) {
-    margin-left: 6rem;
-  }
+ 
 }
 
 .infocomm-uk-address {
@@ -461,14 +208,6 @@
     font-family: 'Poppins', sans-serif;
     line-height: 25px;
 
-    @media only screen and (max-width:900px) {
-        margin-left: -5rem;
-      }
-
-      @media only screen and (max-width:600px) {
-        margin-left: -1rem;
-        margin-right: 4rem;      
-    }
-
+   
 
 }

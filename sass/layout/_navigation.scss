@@ -1,19 +1,5 @@
 .bg-dark {
-    @media only screen and (max-width:900px) {
-        width: 208%;
-    }
-
-    @media only screen and (max-width:600px) {
-        width: 199%;
-    }
-
-    @media only screen and (max-width:400px) {
-        width: 265%;
-    }
-
-    @media only screen and (max-width:300px) {
-        width: 399%;
-    }
+   
     color: $color-black;
     
 
@@ -24,22 +10,7 @@
   .navbar-item {
       margin-left: 34rem;
 
-      @media only screen and (max-width:1200px){
-        margin-left: 12rem;
-        
-      }
-
-      @media only screen and (max-width:900px){
-        margin-left: 2rem;
-      }
-
-      @media only screen and (max-width:600px){
-        margin-left: 1rem;
-      }
-
-      @media only screen and (max-width:300px){
-        margin-left: 8rem;
-      }
+     
   }
 .navbar-expand {
     height: 85px;
@@ -47,25 +18,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    @media only screen and (max-width:1200px) {
-        width: 117%;
-    }
-
-    @media only screen and (max-width:900px) {
-        width: 139%;
-    }
-
-    @media only screen and (max-width:600px) {
-        width: 199%;
-    }
-
-    @media only screen and (max-width:400px) {
-        width: 265%;
-    }
-
-    @media only screen and (max-width:300px) {
-        width: 399%;
-    }
+    
 }
 .btn {
     background-color: $color-blue;
@@ -91,9 +44,7 @@
 
   
 
-    @media only screen and (max-width:600px) {
-          width: 130px;
-    }
+   
 
 }
 

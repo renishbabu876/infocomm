@@ -6,24 +6,5 @@
     height: 500px;
     background-image: url(../img/bg.jpg);
 
-    @media only screen and (max-width:1200px) {
-       width: 117%;
-       
-    }
-
-    @media only screen and (max-width:900px) {
-        width: 208%;
-     }
-
-     @media only screen and (max-width:600px) {
-        width: 199%;
-     }
-
-     @media only screen and (max-width:400px) {
-        width: 265%;
-     }
-
-     @media only screen and (max-width:300px) {
-        width: 399%;
-     }
+   
 }
