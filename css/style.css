@@ -55,6 +55,12 @@ body {
   text-shadow: 2px 2px 2px #000000;
   font-weight: 600;
   letter-spacing: 5px; }
+  @media only screen and (max-width: 900px) {
+    .line-1 {
+      font-size: 2rem; } }
+  @media only screen and (max-width: 600px) {
+    .line-1 {
+      font-size: 2rem; } }
 
 .heading-description {
   font-weight: bold;
@@ -418,6 +424,10 @@ body {
   overflow: hidden;
   height: 500px;
   background-image: url(../img/bg.jpg); }
+  @media only screen and (max-width: 900px) {
+    .company_image {
+      height: 500px;
+      width: auto; } }
 
 .bg-dark {
   color: #000000; }

@@ -23,6 +23,14 @@
     font-weight: 600;
     letter-spacing: 5px;
 
+    @media only screen and (max-width:900px) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width:600px) {
+        font-size: 2rem;
+    }
+
    
 }
 .heading-description {
