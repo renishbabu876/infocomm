@@ -55,12 +55,6 @@ body {
   text-shadow: 2px 2px 2px #000000;
   font-weight: 600;
   letter-spacing: 5px; }
-  @media only screen and (max-width: 900px) {
-    .line-1 {
-      font-size: 2rem; } }
-  @media only screen and (max-width: 600px) {
-    .line-1 {
-      font-size: 2rem; } }
 
 .heading-description {
   font-weight: bold;
@@ -230,12 +224,18 @@ body {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   line-height: 25px; }
+  @media only screen and (max-width: 900px) {
+    .infocomm-india-address {
+      font-size: 21px; } }
 
 .infocomm-uk-address {
   color: #fff;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   line-height: 25px; }
+  @media only screen and (max-width: 900px) {
+    .infocomm-uk-address {
+      font-size: 21px; } }
 
 .footer {
   background-color: #1d1d29;
@@ -297,6 +297,12 @@ body {
       margin-left: -2rem; }
   .footer_nav-infocomm {
     margin-left: -4rem; }
+  @media only screen and (max-width: 900px) {
+    .footer {
+      height: auto; } }
+  @media only screen and (max-width: 600px) {
+    .footer {
+      height: auto; } }
 
 .indian-flag {
   margin: 0 auto;

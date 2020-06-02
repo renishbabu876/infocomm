@@ -23,13 +23,7 @@
     font-weight: 600;
     letter-spacing: 5px;
 
-    @media only screen and (max-width:900px) {
-        font-size: 2rem;
-    }
-
-    @media only screen and (max-width:600px) {
-        font-size: 2rem;
-    }
+   
 
    
 }
@@ -250,6 +244,10 @@
   font-family: 'Poppins', sans-serif;
   line-height: 25px;
 
+  @media only screen and (max-width:900px) {
+      font-size: 21px;
+  }
+
  
 }
 
@@ -259,6 +257,11 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     line-height: 25px;
+
+    @media only screen and (max-width:900px) {
+        font-size: 21px;
+    }
+  
 
    
 
