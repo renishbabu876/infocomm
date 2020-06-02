@@ -109,6 +109,13 @@ body {
   font-size: 17px;
   cursor: pointer;
   margin-left: 7rem; }
+  @media only screen and (max-width: 900px) {
+    .heading-1 {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
 
 .heading-2 {
   padding: 20px 0px;
@@ -124,6 +131,13 @@ body {
     color: #fff;
     border: 0px;
     cursor: pointer; }
+  @media only screen and (max-width: 900px) {
+    .heading-2 {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
 
 .heading-3 {
   padding: 20px 0px;
@@ -139,6 +153,13 @@ body {
     color: #fff;
     border: 0px;
     cursor: pointer; }
+  @media only screen and (max-width: 900px) {
+    .heading-3 {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
 
 .heading-4 {
   padding: 20px 0px;
@@ -154,6 +175,13 @@ body {
     color: #fff;
     border: 0px;
     cursor: pointer; }
+  @media only screen and (max-width: 900px) {
+    .heading-4 {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); } }
 
 .paragraph-1 {
   margin: 3rem 10rem;
@@ -347,6 +375,10 @@ body {
       .row:not(:last-child) {
         margin-bottom: 6rem;
         margin: auto; } }
+    @media only screen and (max-width: 37.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 6rem;
+        margin: auto; } }
   @media only screen and (max-width: 56.25em) {
     .row {
       max-width: 50rem;
@@ -431,9 +463,6 @@ body {
 .game_development {
   height: 60px;
   margin-left: 11rem; }
-  @media only screen and (max-width: 300px) {
-    .game_development {
-      margin-left: 25rem; } }
 
 .mouseonanimate:hover {
   animation: zoominoutsinglefeatured 1s; }
@@ -478,6 +507,13 @@ body .no-padding {
   position: relative;
   top: 50%;
   left: 44%; }
+  @media only screen and (max-width: 900px) {
+    .profile-image {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -13%); } }
 
 .profile-name {
   text-align: center; }
@@ -500,3 +536,18 @@ body .no-padding {
 .brand-logo {
   margin-left: 9rem;
   margin-right: 14rem; }
+  @media only screen and (max-width: 900px) {
+    .brand-logo {
+      margin: 0 auto;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 0%); } }
+
+@media only screen and (max-width: 900px) {
+  .brand-logo1 {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    left: 376%;
+    transform: translate(-50%, 0%); } }
