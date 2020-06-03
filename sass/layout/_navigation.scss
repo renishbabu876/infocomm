@@ -48,5 +48,29 @@
 
 }
 
+.navbar-toggler1 {
+    @media only screen and (max-width:900px) {
+        width: 1.5em;
+        height: 1.5em;
+        display: inline-block;
+   
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    }
+
+    @media only screen and (max-width:600px) {
+        width: 39.5em;
+        height: 29.5em;
+        display: inline-block;
+    
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    }
+}
+
 
 

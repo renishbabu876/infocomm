@@ -55,6 +55,13 @@ body {
   text-shadow: 2px 2px 2px #000000;
   font-weight: 600;
   letter-spacing: 5px; }
+  @media only screen and (max-width: 900px) {
+    .line-1 {
+      font-size: 20px; } }
+  @media only screen and (max-width: 600px) {
+    .line-1 {
+      font-size: 12px;
+      left: -59rem; } }
 
 .heading-description {
   font-weight: bold;
@@ -226,7 +233,7 @@ body {
   line-height: 25px; }
   @media only screen and (max-width: 900px) {
     .infocomm-india-address {
-      font-size: 21px; } }
+      font-size: 20px; } }
 
 .infocomm-uk-address {
   color: #fff;
@@ -459,6 +466,26 @@ body {
   padding: 1rem 2rem; }
   .btn:hover {
     background-color: #4f6df5; }
+
+@media only screen and (max-width: 900px) {
+  .navbar-toggler1 {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%; } }
+
+@media only screen and (max-width: 600px) {
+  .navbar-toggler1 {
+    width: 39.5em;
+    height: 29.5em;
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%; } }
 
 .company_description {
   width: 100%;
