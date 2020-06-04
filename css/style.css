@@ -251,6 +251,11 @@ body {
   .footer_nav {
     list-style: none;
     margin-left: -2rem; }
+    @media only screen and (max-width: 600px) {
+      .footer_nav {
+        position: relative;
+        left: 19px;
+        margin: 0 -70px; } }
   .footer__nav-item {
     margin-bottom: 0rem;
     list-style: none;
@@ -260,6 +265,11 @@ body {
     list-style: none;
     color: #fff;
     margin-left: 3rem; }
+    @media only screen and (max-width: 600px) {
+      .footer-copyright {
+        margin-left: -146rem;
+        position: relative;
+        left: 90rem; } }
   .footer__nav-link {
     color: #fff;
     text-decoration: none;
@@ -304,6 +314,13 @@ body {
       margin-left: -2rem; }
   .footer_nav-infocomm {
     margin-left: -4rem; }
+    @media only screen and (max-width: 600px) {
+      .footer_nav-infocomm {
+        margin: 0 auto;
+        position: relative;
+        left: 118px;
+        margin-left: -130rem;
+        font-size: 15rem; } }
   @media only screen and (max-width: 900px) {
     .footer {
       height: auto; } }
@@ -336,6 +353,9 @@ body {
   .fav-icon--1:hover {
     color: #009efd;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--1 {
+      font-size: 20px; } }
 
 .fav-icon--2 {
   color: #fff;
@@ -344,6 +364,9 @@ body {
   .fav-icon--2:hover {
     color: #02a2f8;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--2 {
+      font-size: 20px; } }
 
 .fav-icon--3 {
   color: #fff;
@@ -352,6 +375,9 @@ body {
   .fav-icon--3:hover {
     color: #ec2786;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--3 {
+      font-size: 20px; } }
 
 .fav-icon--4 {
   color: #fff;
@@ -360,6 +386,9 @@ body {
   .fav-icon--4:hover {
     color: #02a2f8;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--4 {
+      font-size: 20px; } }
 
 .fav-icon--5 {
   color: #fff;
@@ -368,6 +397,9 @@ body {
   .fav-icon--5:hover {
     color: #FF0000;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--5 {
+      font-size: 20px; } }
 
 .fav-icon--6 {
   color: #fff;
@@ -376,6 +408,9 @@ body {
   .fav-icon--6:hover {
     color: #FF0000;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--6 {
+      font-size: 20px; } }
 
 .fav-icon--7 {
   color: #fff;
@@ -384,6 +419,9 @@ body {
   .fav-icon--7:hover {
     color: #ec2786;
     transform: scale(1.5); }
+  @media only screen and (max-width: 600px) {
+    .fav-icon--7 {
+      font-size: 20px; } }
 
 .row {
   max-width: 114rem;
