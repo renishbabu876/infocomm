@@ -293,18 +293,32 @@ body {
       margin-bottom: 15px;
       margin-top: 3rem;
       margin-left: 3rem; }
+      @media only screen and (max-width: 600px) {
+        .footer_nav-heading--1 {
+          position: relative;
+          left: -1em; } }
     .footer_nav-heading--2 {
       text-transform: uppercase;
       color: #fff;
       font-size: 19px;
       margin-bottom: 15px;
       margin-top: 3rem; }
+      @media only screen and (max-width: 600px) {
+        .footer_nav-heading--2 {
+          margin-left: -51rem;
+          position: relative;
+          left: 39rem; } }
     .footer_nav-heading--3 {
       text-transform: uppercase;
       color: #fff;
       font-size: 19px;
       margin-bottom: 15px;
       margin-top: 3rem; }
+      @media only screen and (max-width: 600px) {
+        .footer_nav-heading--3 {
+          margin-left: -79rem;
+          position: relative;
+          left: 62rem; } }
     .footer_nav-heading--4 {
       text-transform: uppercase;
       color: #fff;
@@ -312,6 +326,11 @@ body {
       margin-bottom: 15px;
       margin-top: 3rem;
       margin-left: -2rem; }
+      @media only screen and (max-width: 600px) {
+        .footer_nav-heading--4 {
+          margin-left: -94rem;
+          position: relative;
+          left: 73rem; } }
   .footer_nav-infocomm {
     margin-left: -4rem; }
     @media only screen and (max-width: 600px) {

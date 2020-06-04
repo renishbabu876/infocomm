@@ -65,6 +65,11 @@
             margin-bottom: 15px;
             margin-top: 3rem; 
             margin-left: 3rem;
+
+            @media only screen and (max-width:600px) {
+                position: relative;
+                left: -1em;
+            }
         }
 
         &--2 {
@@ -73,6 +78,11 @@
         font-size: 19px;
         margin-bottom: 15px;
         margin-top: 3rem;
+        @media only screen and (max-width:600px) {
+            margin-left: -51rem;
+    position: relative;
+    left: 39rem;
+        }
         }
 
         &--3 {
@@ -81,6 +91,12 @@
         font-size: 19px;
         margin-bottom: 15px;
         margin-top: 3rem;
+
+        @media only screen and (max-width:600px) {
+            margin-left: -79rem;
+    position: relative;
+    left: 62rem;
+        }
         }
 
         &--4 {
@@ -90,6 +106,12 @@
         margin-bottom: 15px;
         margin-top: 3rem;
         margin-left: -2rem;
+
+        @media only screen and (max-width:600px) {
+            margin-left: -94rem;
+    position: relative;
+    left: 73rem;
+        }
 
        
         }
