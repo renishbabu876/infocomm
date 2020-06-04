@@ -234,11 +234,6 @@ body {
   @media only screen and (max-width: 900px) {
     .infocomm-india-address {
       font-size: 20px; } }
-  @media only screen and (max-width: 600px) {
-    .infocomm-india-address {
-      position: relative;
-      left: 105rem;
-      margin-left: -199rem; } }
 
 .infocomm-uk-address {
   color: #fff;
@@ -248,11 +243,6 @@ body {
   @media only screen and (max-width: 900px) {
     .infocomm-uk-address {
       font-size: 21px; } }
-  @media only screen and (max-width: 900px) {
-    .infocomm-uk-address {
-      position: relative;
-      left: 105rem;
-      margin-left: -199rem; } }
 
 .footer {
   background-color: #1d1d29;
